@@ -21,11 +21,11 @@ Build requirements:
 
 Get the source files and dependencies:
 
-    go get https://github.com/Sunil777/grafana-reporter/...
+    go get github.com/Sunil777/grafana-reporter/...
 
 Build and install `grafana-reporter` binary to `$GOPATH/bin`:
 
-    go install -v https://github.com/Sunil777/grafana-reporter/cmd/grafana-reporter
+    go install -v github.com/Sunil777/grafana-reporter/cmd/grafana-reporter
 
 Running without any flags assumes Grafana is reachable at `localhost:3000`:
 
